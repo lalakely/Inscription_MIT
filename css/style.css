@@ -1,0 +1,83 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing:border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    width: 100%;
+}
+.MIT{
+    font-size: 2vw;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 1vw;
+}
+.inp{
+    width: 40vw;
+}
+.insc{
+    color: beige;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 30vw;
+    height: 3vw;
+    position: relative;
+    top: 1vw;
+    border-radius: 10vw;
+}
+.head{
+    color:blanchedalmond;
+    background-color: black;
+    width: 100%;
+    height: 8vw;
+}
+.red{
+    color:red;
+    font-size: 4vw;
+}
+.ins{
+    text-align: center;
+    font-size: 2vw;
+    position: relative;
+    top: 3vw;
+    font-size: 3vw;
+}
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background: url("../photo/MIT.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.back-color{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(100, 8, 8, 0.692);
+    z-index: 10;
+}
+.first{
+    position: relative;
+    top : 10vh;
+    background-color:rgba(255, 255, 255, 0.644);
+    text-align: center;
+    height: 60vh;
+}
+.foot{
+    color: gray;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.divfoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 18vw;
+}
+.coo{
+    color: blanchedalmond;
+    background-color: black;
+    text-align: center;
+}
